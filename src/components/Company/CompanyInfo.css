@@ -1,0 +1,44 @@
+#main-card {
+  width: 650px;
+  padding: 2%;
+  border-radius: 3%;
+  box-shadow: 0px 5px 7px rgb(161, 161, 161);
+  margin-top: 2%;
+}
+
+#company-div {
+  background-color: #d3d7d8;
+}
+
+#company_main {
+  font: 0.8em sans-serif;
+  text-align: left;
+  height: 100vh;
+  background-color: #d3d7d8;
+}
+
+label {
+  margin-top: 10px;
+  font-size: large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (max-width: 767px) {
+  #main-card {
+    width: auto;
+    margin: 2%;
+    padding: 5%;
+  }
+  .col-md-6,
+  .col-md-12 {
+    margin-bottom: 5px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #main-card {
+    width: 80%;
+    margin: 2%;
+    padding: 3%;
+  }
+}

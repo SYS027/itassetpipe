@@ -1,0 +1,11 @@
+.shift-right {
+  transform: translateX(-300px);
+}
+
+.main-content:not(.shift-right) {
+  width: calc(100% - 300px);
+}
+
+#main-head {
+  background-color: aqua;
+}

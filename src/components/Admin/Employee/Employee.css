@@ -1,0 +1,26 @@
+#Employee-card{
+  padding: 20px 10px 10px 20px;
+}
+#btn-vendor{
+  background-color: #386996;
+  width: 160px;
+}
+#btn-export{
+  width: 160px;
+  background-color: #A66DD4;
+  border: none;
+}
+#search{
+  float: right;
+  justify-self: end;
+  margin-left: 18rem;
+}
+#show-entries{
+  display: flex;
+}
+#show-select{
+  width: auto;
+}
+#edit-icon{
+  color: #0d6efd;
+}

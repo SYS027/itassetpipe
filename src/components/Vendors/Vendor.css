@@ -1,0 +1,57 @@
+.lightblue {
+  background-color: #dedede;
+  font-size: 15px;
+}
+
+#vendor-tbody{
+  font-size: 15px;
+}
+
+.ey1 {
+  padding: 10px;
+  color: #0d6efd;
+}
+
+.vendor-data{
+  text-align: center;
+}
+
+#trash-vendor{
+  color: #4d86eddb;
+}
+
+#AddVendor{
+   background-color: #386996;
+    width: 170px; 
+}
+
+#Export{
+  width: 160px;
+   background-color: #A66DD4;
+  border: none ;
+}
+
+#delete{
+  width: 160px;
+}
+
+#search-addon{
+   background-color: #0d6efd;
+}
+
+.navigation{
+  float: right;
+}
+
+.search{
+  float: right;
+  justify-self: end;
+}
+
+.show-entries{
+  width: auto;
+}
+
+.actions{
+  color: #0d6efd;
+}

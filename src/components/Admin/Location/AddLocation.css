@@ -1,0 +1,15 @@
+#add-main{
+    padding: 10px 10px 10px 10px;
+}
+#main-head{
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    color: azure;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.asterisk{
+    color: red;
+}
+

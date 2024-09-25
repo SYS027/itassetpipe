@@ -1,0 +1,51 @@
+#sectionlocation{
+    padding: 15px 10px;
+}
+
+.addlocationbtn{
+    background-Color: #386996;
+    width: 160px;
+}
+
+.venderbtn{
+    width: 150px;
+    background-Color: #A66DD4;
+    border: none;
+}
+
+.searchbar{
+    float: right;
+    justify-Self: end;
+}
+
+.paginationdrop{
+    display: flex;
+}
+
+.paginationpage{
+    float: right;
+}
+
+.editicon{
+    color: #0d6efd;
+}
+
+.paginationselect{
+    width: auto;
+} 
+
+.locationsearchbar{
+    position: relative;
+    bottom: 3rem;
+}
+
+.locationtable{
+    position: relative;
+    bottom: 2rem;
+}
+
+.locationpaginate{
+    float: right;
+    position: relative;
+    bottom: 5rem;
+}

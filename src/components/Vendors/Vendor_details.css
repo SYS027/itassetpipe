@@ -1,0 +1,36 @@
+.section {
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #efefef;
+    border-radius: 10px;
+}
+
+h4 {
+    font-family: "Nunito", sans-serif;
+}
+
+.cardborder {
+    border: 1px solid rgba(0, 0, 0, .125);
+    margin: 10px;
+    padding: 20px;
+    overflow-x: scroll;
+}
+
+table {
+    caption-side: bottom;
+    border-collapse: collapse;
+}
+
+ tr {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+}
+
+th {
+    padding-right: 25px;
+}
+
+.tab{
+    margin-left: 40px;
+}

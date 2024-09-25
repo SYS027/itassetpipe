@@ -1,0 +1,35 @@
+ #login-container {
+   align-items: center;
+   background-color: #d3d7d8;
+   height: 100vh;
+ }
+
+ #Image {
+   width: 120px;
+ }
+
+ #Card {
+   width: 320px;
+   border-radius: 15px;
+   height: auto;
+ }
+
+ #Email {
+   background-color: #e9ecef;
+   color: #192744;
+ }
+
+ #Password {
+   background-color: #e9ecef;
+   color: #192744;
+ }
+
+ #SignUp {
+   text-decoration: none;
+   color: black;
+ }
+
+ #Forget {
+   text-decoration: none;
+   color: black;
+ }

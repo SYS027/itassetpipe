@@ -1,0 +1,164 @@
+#loc {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+}
+#loc1 {
+  color: blue;
+}
+
+#main {
+  margin-top: 65px;
+  padding: 15px;
+  transition: all 0.3s;
+  margin-left: 300px;
+  width: auto;
+}
+.divimgdashboard {
+  width: 38px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.div3imgdashboard {
+   width: 45px;
+  top: 110.5px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+#card_main {
+  margin: 5px 5px 0px 5px;
+}
+.section-main {
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+#card_row1 {
+  margin: 20px 0px;
+  height: 150px;
+  background-color: #3b76ee;
+  border-radius: 10;
+}
+#card_row2 {
+  margin: 20px 0px;
+  height: 150px;
+  background-color: #62c7ff;
+  border-radius: 10;
+}
+#card_row3 {
+  margin: 20px 0px;
+  height: 150px;
+  background-color: #a66dd4;
+  border-radius: 10;
+}
+#card_row4 {
+  margin: 20px 0px;
+  height: 150px;
+  background-color: #5b40c5;
+  border-radius: 10;
+}
+.second_div_graph {
+  width: 100%;
+  height: 100%;
+}
+#assets-asign-button {
+  background-color: #a66dd4;
+  border: none;
+}
+.button-asset-dashboard {
+  display: flex;
+  gap: 1rem;
+}
+#new_puechse {
+  float: right;
+  background-color: #386996;
+}
+#new_subscription_main {
+  float: right;
+  background-color: #386996;
+}
+
+.main-content {
+  transition: all 0.3s ease;
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.sidebar-open ~ #main {
+  margin: 60px 0px;
+  width: auto;
+  flex-direction: column;
+}
+.main-content:not(.shift-right) {
+  width: calc(100% - 300px);
+}
+
+@media screen and (max-width: 480px) {
+  #main {
+    margin-top: 150px;
+    padding: 5px;
+    transition: all 0.3s;
+    margin-left: 300px;
+  }
+  #card_main {
+    margin: 0px;
+    padding: 0px;
+  }
+  #assets {
+    font-size: 10px;
+    font-weight: 500;
+    text-align: center;
+    padding: 9px 13px;
+  }
+  #assets-asign-button {
+    font-size: 10px;
+    font-weight: 500;
+    text-align: center;
+    padding: 9px 10px;
+  }
+  #form-div {
+    overflow-x: auto;
+  }
+  .button-asset-dashboard {
+    display: flex;
+    justify-content: space-around;
+  }
+  .main-content:not(.shift-right) {
+    width: calc(100% - 300px);
+  }
+}
+
+@media screen and (max-width: 720px) {
+  #main {
+    margin-top: 150px;
+    padding: 5px;
+    transition: all 0.3s;
+    margin-left: 300px;
+  }
+  #card_main {
+    margin: 0px;
+    padding: 0px;
+  }
+  #assets {
+    font-size: 10px;
+    font-weight: 500;
+    text-align: center;
+    padding: 9px 13px;
+  }
+  #assets-asign-button {
+    font-size: 10px;
+    font-weight: 500;
+    text-align: center;
+    padding: 9px 10px;
+  }
+  #form-div {
+    overflow-x: auto;
+  }
+  .main-content:not(.shift-right) {
+    width: calc(100% - 300px);
+  }
+}

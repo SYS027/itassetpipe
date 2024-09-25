@@ -1,0 +1,119 @@
+#sidebar {
+  width: 300px;
+  background-color: #fff;
+  color: #000;
+  transition: all 0.3s;
+  top: 60px;
+  left: 0;
+  bottom: 0;
+  padding: 20px 0px;
+  overflow-y: auto;
+  z-index: 200;
+ position: fixed;
+ box-shadow: 0px 0px 20px rgba(1, 41, 112, 0.1);
+}
+#sidebar::-webkit-scrollbar-thumb {
+  background-color: #aab7cf;
+}
+#sidebar::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: #fff;
+}
+#sidebar.active {
+  margin-left: -300px;
+}
+
+#sidebar ul.components {
+  padding: 0;
+}
+
+
+#sidebar ul li a {
+  font-size: 19px;
+  font-weight: 600;
+  color: #838383;
+  text-decoration: none;
+  margin: 0px 7px;
+}
+
+#sidebar ul li a:hover {
+  color: rgba(0, 0, 128, 0.767);
+}
+#dropmenu a{
+  margin: 0px 10px;
+}
+
+/* App.css */
+.wrapper {
+  display: flex;
+}
+ .dropdown_asset{
+  background-color: white;
+ }
+ #dropmenu_asset{
+  background-color: #e4e3e3;
+  margin-top: 7px;
+ }
+
+ #dropmenu_admin{
+  background-color: #e4e3e3;
+  margin-top: 7px;
+  margin-bottom: 7px;
+ } 
+
+#content {
+  width: 100%;
+  padding: 20px;
+}
+.menu-img{
+  width: 35px;
+}
+button{
+  border: none;
+  background: none;
+}
+.drop-assests{
+  display: none;
+}
+.minus{
+  width: 15px;
+}
+
+#list-card{
+  background-color: gainsboro;
+  margin: 10px 10px 10px 10px;
+  border-radius: 7px;
+  padding: 15px 10px 10px 10px;
+  color: #838383;
+  transition: 0.3s;
+}
+
+  #list-card:hover{
+    margin: 10px 10px 10px 10px;
+    border-radius: 10px;
+    color: rgba(0, 0, 128, 0.767);
+  }
+.section-card{
+  background-color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+  #sidebar {
+      top: 100px;
+      height: 100vh;
+      z-index: 300;
+  }
+  #plus{
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    left: 0;
+    margin: 0px 90px;
+  }
+  #Admin_column{
+    padding: 0;
+    margin-bottom: 5px;
+    margin: 0px -8px;
+  }
+}
